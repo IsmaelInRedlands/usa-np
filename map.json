@@ -1,0 +1,149 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a1c26172c2-layer-2",
+      "disablePopup": true,
+      "title": "USA National Parks",
+      "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Land_Resources_Division_Boundary_and_Tract_Data_Service/FeatureServer/2",
+      "itemId": "d05e3c968baf42609d8410aad235ea1f",
+      "layerType": "ArcGISFeatureLayer",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "UNIT_NAME",
+                "isEditable": true,
+                "label": "UNIT_NAME",
+                "visible": true
+              },
+              {
+                "fieldName": "STATE",
+                "isEditable": true,
+                "label": "STATE",
+                "visible": true
+              },
+              {
+                "fieldName": "REGION",
+                "isEditable": true,
+                "label": "REGION",
+                "visible": true
+              },
+              {
+                "fieldName": "UNIT_TYPE",
+                "isEditable": true,
+                "label": "UNIT_TYPE",
+                "visible": true
+              },
+              {
+                "fieldName": "Status",
+                "isEditable": true,
+                "label": "Status",
+                "visible": true
+              },
+              {
+                "fieldName": "UNIT_CODE",
+                "isEditable": true,
+                "label": "UNIT_CODE",
+                "visible": true
+              },
+              {
+                "fieldName": "IRMAReference",
+                "isEditable": true,
+                "label": "IRMA Reference",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "type": "expression",
+            "expressionInfo": {
+              "expression": "IIF(IsEmpty($feature.METADATA), '', $feature.METADATA)",
+              "returnType": "dictionary"
+            }
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "UNIT_NAME",
+            "isEditable": true,
+            "label": "UNIT_NAME",
+            "visible": true
+          },
+          {
+            "fieldName": "STATE",
+            "isEditable": true,
+            "label": "STATE",
+            "visible": true
+          },
+          {
+            "fieldName": "REGION",
+            "isEditable": true,
+            "label": "REGION",
+            "visible": true
+          },
+          {
+            "fieldName": "UNIT_TYPE",
+            "isEditable": true,
+            "label": "UNIT_TYPE",
+            "visible": true
+          },
+          {
+            "fieldName": "Status",
+            "isEditable": true,
+            "label": "Status",
+            "visible": true
+          },
+          {
+            "fieldName": "UNIT_CODE",
+            "isEditable": true,
+            "label": "UNIT_CODE",
+            "visible": true
+          },
+          {
+            "fieldName": "IRMAReference",
+            "isEditable": true,
+            "label": "IRMA Reference",
+            "visible": true
+          }
+        ],
+        "title": "{PARKNAME} National Park"
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "18f5adda71e-layer-2",
+        "title": "Outdoor",
+        "itemId": "a409072a313a43b392bb6003b0da5824",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/a409072a313a43b392bb6003b0da5824/resources/styles/root.json"
+      }
+    ],
+    "title": "Outdoor Map"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -19005307.501879673,
+        "ymin": -1606725.4010738414,
+        "xmax": 16222790.947587324,
+        "ymax": 10644575.943410944
+      }
+    }
+  }
+}

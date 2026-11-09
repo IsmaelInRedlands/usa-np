@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-11-09T22:14:11.961Z",
+  "title": "USA National Parks Explorer",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-11-09T22-14-11-a66e6bbb-0883-4af0-b6dd-f8c13f8d288a/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "BEg1HhSwTi8qrn9M",
+  "deploymentUrl": "https://ismaelinredlands.github.io/usa-np/"
+}
