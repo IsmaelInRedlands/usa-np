@@ -150,8 +150,8 @@
       {
         "id": "park-explorer",
         "label": "National park details and navigator",
-        "bundlePath": "./runtime/behaviors/park-explorer-c86be0104a820806.js",
-        "sourceSha256": "c86be0104a820806f8d65af7eb165fa7b6dcc0a24508cfabd9a9fde3d550d230",
+        "bundlePath": "./runtime/behaviors/park-explorer-a0218e93fe325430.js",
+        "sourceSha256": "a0218e93fe32543023f5674aa4561c77210ae794381dd6a414ba1967ef29aa99",
         "modulePaths": [],
         "config": {
           "layerId": "1a1c26172c2-layer-2"
@@ -171,7 +171,7 @@
             "actionId": "show-park-details"
           }
         ],
-        "installedAt": "2026-11-09T22:22:23.936Z"
+        "installedAt": "2026-11-09T22:30:35.466Z"
       }
     ]
   },
